@@ -19,8 +19,8 @@ Architecture
 To run:
 
 1. Configure AWS cred
-2. ```aws s3 mb s3://sgx-statefile``` (File to maintain state)
-3. ```aws ec2 create-key-pair --key-name my_sgx```
+2. ```aws s3 mb s3://statefile``` (File to maintain state)
+3. ```aws ec2 create-key-pair --key-name my_cert```
 4. ```terraform init```
 5. ``terraform plan``
 6. ```terraform apply``` 
